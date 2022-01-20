@@ -1,0 +1,19 @@
+# problem 1
+def num():
+    return 15
+print(num())
+#answer is 15
+
+# problem 2
+def number_of_movies():
+    return 10
+    return 20
+print(number_of_movies())
+#answer is 10 because once 10 was returned, 20 is not recognized so 10 is skipped
+
+# problem 3
+def number_of_fingers():
+    return 5
+    print(10)
+print(number_of_fingers())
+#answer is 5 because it bypasses printing 10 due to indentation, if print(10) were to be unindented then it would pring out both 10 and 5
